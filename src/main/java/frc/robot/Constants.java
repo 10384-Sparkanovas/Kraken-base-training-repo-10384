@@ -28,25 +28,25 @@ public class Constants {
                 new Translation2d(-kWheelBase / 2, -kTrackWidth / 2)); // front right
 
         // DRIVE Motor Ports
-        public static final int kFrontLeftDriveMotorPort = 1;
-        public static final int kBackLeftDriveMotorPort = 7;
-        public static final int kFrontRightDriveMotorPort = 3;
-        public static final int kBackRightDriveMotorPort = 5;
+        public static final int kFrontLeftDriveMotorPort = 7;
+        public static final int kBackLeftDriveMotorPort = 5;
+        public static final int kFrontRightDriveMotorPort = 1;
+        public static final int kBackRightDriveMotorPort = 3;
 
         // TURNING Motor Ports
-        public static final int kFrontLeftTurningMotorPort = 2;
-        public static final int kBackLeftTurningMotorPort = 8;
-        public static final int kFrontRightTurningMotorPort = 4;
-        public static final int kBackRightTurningMotorPort = 6;
+        public static final int kFrontLeftTurningMotorPort = 8;
+        public static final int kBackLeftTurningMotorPort = 2;
+        public static final int kFrontRightTurningMotorPort = 6;
+        public static final int kBackRightTurningMotorPort = 4;
 
         // CANCoder Ids
-        public static final int kFrontLeftCANCoderId = 21;
-        public static final int kBackLeftCANCoderId = 24;
-        public static final int kFrontRightCANCoderId = 22;
-        public static final int kBackRightCANCoderId = 23;
+        public static final int kFrontLeftCANCoderId = 24;
+        public static final int kBackLeftCANCoderId = 23;
+        public static final int kFrontRightCANCoderId = 21;
+        public static final int kBackRightCANCoderId = 22;
 
         // Gyro
-        public static final int kPigeonId = 17;
+        public static final int kPigeonId = 30;
 
         // Invert booleans | We use MK4i modules so the turning motors are inverted
         public static final boolean kModuleTurningEncoderReversed = false;
@@ -55,10 +55,10 @@ public class Constants {
         public static final boolean kGyroReversed = false;
 
         // Turning encoder offsets
-        public static final double kFrontLeftDriveAbsoluteEncoderOffsetRad = 0.140625 * Math.PI/180;
-        public static final double kBackLeftDriveAbsoluteEncoderOffsetRad = -0.351806640625 * Math.PI/180;
-        public static final double kFrontRightDriveAbsoluteEncoderOffsetRad = 0.104248046875 * Math.PI/180;
-        public static final double kBackRightDriveAbsoluteEncoderOffsetRad = -0.192626953125 * Math.PI/180;
+        public static final double kFrontLeftDriveAbsoluteEncoderOffsetRad = 0.219970703125 * Math.PI/180;
+        public static final double kBackLeftDriveAbsoluteEncoderOffsetRad = 0.328369140625 * Math.PI/180;
+        public static final double kFrontRightDriveAbsoluteEncoderOffsetRad =  0.22705078125 * Math.PI/180;
+        public static final double kBackRightDriveAbsoluteEncoderOffsetRad = -0.35205078125 * Math.PI/180;
 
         // Robot speeds
         public static final double kPhysicalMaxSpeedMetersPerSecond = 1; // PHYSICAL max speed of the modules (safety cap)
